@@ -1,0 +1,106 @@
+body {
+  background-color: rgb(153, 9, 9);
+  font-size: 18px;
+}
+
+.main-header {
+  overflow: hidden;
+}
+
+.main-header nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #000;
+  padding: 30px 50px 10px 50px;
+  justify-content: space-between;
+}
+
+.main-header nav ul li {
+  margin: 0 30px;
+  text-align: center;
+}
+
+.main-header nav ul li a {
+  color: #fff;
+  outline: none;
+  text-decoration: none;
+}
+
+.main-header div {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.main-header nav ul li span {
+  display: block;
+}
+
+.main-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+.main-section .left-side {
+  width: 20%;
+  background-color: rgb(125, 9, 9);
+}
+
+.main-section .left-side ul li {
+  margin-bottom: 30px;
+}
+
+.main-section .left-side ul li a {
+  color: rgb(222, 66, 14);
+  outline: none;
+}
+
+.main-section .middle-side {
+  width: 65%;
+}
+
+.main-section .middle-side ul li {
+  margin: 30px 0;
+  color: white;
+  padding: 0 5px;
+}
+
+.main-section .right-side {
+  width: 15%;
+  background: white;
+}
+
+.main-section .right-side div {
+  font-weight: bold;
+  background-color: rgb(189, 189, 189);
+  text-align: center;
+}
+
+.main-section .right-side ul li {
+  margin: 35px 0;
+}
+
+.footer {
+  margin: 30px 0 30px;
+  text-align: center;
+  color: white;
+  background-color: rgb(233, 91, 17);
+  font-size: 20px;
+}
+
+hr {
+  width: 100px;
+}
