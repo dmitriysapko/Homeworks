@@ -1,0 +1,43 @@
+body {
+  font-size: 18px;
+}
+
+.main-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  background-color: #a52a2a;
+  color: white;
+}
+
+.main-header div img {
+  width: 100%;
+}
+
+.main div a {
+  font-style: italic;
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
+
+.main-images ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.main-images ul li {
+  margin: auto 3px;
+  border-style: dashed;
+}
+
+.footer {
+  background-color: #000;
+  margin-top: 30px;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
