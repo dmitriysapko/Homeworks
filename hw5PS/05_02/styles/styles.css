@@ -1,0 +1,43 @@
+body {
+  background-color: #1d1c1c;
+  color: #fff;
+}
+
+.main {
+  margin: 108px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.section {
+  margin: auto 35px;
+}
+
+.image {
+  width: 81px;
+  height: 81px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #ffae00;
+  margin: 0 auto;
+}
+
+.image img {
+  margin: 25px;
+}
+
+.title {
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin: 45px 0 39px;
+  text-align: center;
+}
+
+.text {
+  width: 371px;
+  height: 129px;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+}
