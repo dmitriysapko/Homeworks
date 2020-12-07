@@ -1,0 +1,67 @@
+body {
+  background: #333;
+}
+
+.kasper {
+  width: 27px;
+  height: 32px;
+  background: #19c8fa;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  position: relative;
+}
+
+.kasper .eyes {
+  position: absolute;
+  top: 9px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.kasper .eyes::after, .kasper .eyes::before {
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-radius:  50%;
+  background: #333;
+  display: inline-block;
+  margin: 0 2px;
+}
+
+.kasper .bottom {
+  height: 6px;
+  width: 100%;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.kasper .bottom span {
+  width: 6px;
+  height: 6px;
+  background: #333;
+  border-radius: 50%;
+}
+
+.kasper .bottom span::after,
+.kasper .bottom span::before{
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: #333;
+  border-radius: 50%;
+  display: inline-block;
+}
+.kasper .bottom span::after {
+  left: 2px;
+}
+
+.kasper .bottom span::before {
+  right: 2px;
+}
