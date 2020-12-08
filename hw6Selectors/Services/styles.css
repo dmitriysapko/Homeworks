@@ -1,0 +1,56 @@
+.main {
+  margin-top: 56px;
+  display: flex;
+  justify-content: center;
+}
+
+.section {
+  margin: auto 50px;
+}
+
+.image {
+  width: 65px;
+  height: 65px;
+  border-radius: 33px;
+  margin: 0 auto;
+  background-color: #2a69a6;
+  position: relative;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.image svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+}
+
+.title {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.35px;
+  text-transform: uppercase;
+  margin: 20px 0 22px;
+  text-align: center;
+}
+
+.text {
+  width: 260px;
+  height: 51px;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: #9d9d9d;
+  text-align: center;
+}
+
+.image:hover {
+  background-color: white;
+  border: 1px solid #2a69a6;
+}
+
+.image:hover svg .shp0 {
+  fill: #2a69a6 !important;
+}
