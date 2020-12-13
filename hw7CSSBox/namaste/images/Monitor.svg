@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 52" width="64" height="52">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #1b1b1b } 
+	</style>
+	<g id="about">
+		<g id="iconboxes">
+			<g id="iconbox 4">
+				<g id="icon">
+					<path id="Monitor" class="shp0" d="M60 3.98L60 37.99L4 37.99L4 3.98L60 3.98M60 -0.02L4 -0.02C1.8 -0.02 0 1.78 0 3.98L0 37.99C0 40.19 1.8 41.99 4 41.99L60 41.99C62.2 41.99 64 40.19 64 37.99L64 3.98C64 1.78 62.2 -0.02 60 -0.02L60 -0.02ZM34 40L34 48L44 48C45.1 48 46 48.9 46 50C46 51.1 45.1 52 44 52L20 52C18.9 52 18 51.1 18 50C18 48.9 18.9 48 20 48L30 48L30 40L34 40Z" />
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
