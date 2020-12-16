@@ -1,10 +1,12 @@
 main {
   width: 1400px;
   height: 940px;
-  margin: 0 auto;
+  margin: 100px auto;
   padding: 140px 123px 0;
   text-align: left;
   font-family: "Lato", sans-serif;
+  box-shadow: 1px 1px 3px 2px rgb(184, 184, 184);
+  ;
 }
 
 h1 {
@@ -52,4 +54,9 @@ p {
   font-size: 18px;
   letter-spacing: 3.6px;
   font-weight: bold;
+}
+
+span {
+  font-size: 40px;
+  margin-right: 50px;
 }
