@@ -1,11 +1,11 @@
 body {
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
+  background-color: #b07cf7
 }
 
 .blog {
-  padding: 100px 0 120px;
-  background-color: #b07cf7;
+  padding: 100px 0 0;
 }
 
 .title {
@@ -92,7 +92,7 @@ body {
   flex-direction: column;
 }
 
-.date p:last-child {
+.date p {
   font-size: 21px;
   font-weight: 900;
   font-stretch: normal;
@@ -110,4 +110,27 @@ body {
 .content p {
   font-size: 13px;
   font-weight: 300;
+}
+
+footer {
+  text-align: center;
+}
+
+.main-section-button {
+  display: inline-block;
+  line-height: 64px;
+  padding: 0 43px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  background-color: #f72b3b;
+  font-weight: 300;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  margin-top: 50px;
+  text-decoration: none;
+}
+
+.main-section-button:hover {
+  color: #fff
 }
