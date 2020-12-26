@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Nike</title>
+</head>
+
+<body>
+    <section class="card">
+        <div class="card__logo">
+            <img src="images/logotype.png" alt="logo">
+        </div>
+        <div class="card__content">
+            <div class="card__image">
+                <img src="images/nike.png" alt="nike">
+                <ul class="card__dots">
+                    <li class="card__dot card__dot--black card__dot--active"></li>
+                    <li class="card__dot card__dot--white"></li>
+                    <li class="card__dot card__dot--red"></li>
+                    <li class="card__dot card__dot--blue"></li>
+                </ul>
+            </div>
+            <div class="card__description">
+                <h1>Nike SB Stefan Janoski Max</h1>
+                <h2>Unisex Skateboarding Shoe</h2>
+                <ul class="card__rating">
+                    <li class="card__star card__star--active">
+                        <img src="images/star.png" alt="star">
+                        <img src="images/star-active.png" alt="star" class="star-active">
+                    </li>
+                    <li class="card__star card__star--active">
+                        <img src="images/star.png" alt="star">
+                        <img src="images/star-active.png" alt="star" class="star-active">
+                    </li>
+                    <li class="card__star card__star--active">
+                        <img src="images/star.png" alt="star">
+                        <img src="images/star-active.png" alt="star" class="star-active">
+                    </li>
+                    <li class="card__star">
+                        <img src="images/star.png" alt="star">
+                        <img src="images/star-active.png" alt="star" class="star-active">
+                    </li>
+                    <li class="card__star">
+                        <img src="images/star.png" alt="star">
+                        <img src="images/star-active.png" alt="star" class="star-active">
+                    </li>
+                </ul>
+                <div class="card__options">
+                    <div class="card__select">
+                        <select name="size" id="size">
+                            <option value="" hidden selected>Size</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </div>
+                    <div class="card__select">
+                        <select name="quantity" id="quantity">
+                            <option value="" hidden selected>Qty</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </div>
+                </div>
+                <button class="card__button">Add to card</button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
