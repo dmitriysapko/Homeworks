@@ -1,0 +1,172 @@
+.body {
+  max-width: 1920px;
+}
+
+.section--dark {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+.section--light {
+  color: #000;
+  font-family: 'Lato', sans-serif;
+}
+
+.header {
+  background: url('/img/bg--header.jpg') no-repeat center center / cover;
+  padding: 285px 650px 115px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header__title {
+  margin-top: 94px;
+  margin-bottom: 53px;
+  font-size: 54px;
+  font-weight: bold;
+  letter-spacing: 8.64px;
+}
+
+.header__text {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.93;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+  margin-bottom: 245px;
+}
+
+.box {
+  margin: 146px 510px 159px;
+  text-align: center;
+  border: 2px solid #000;
+  padding: 0 240px;
+}
+
+.box__title {
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 5.44px;
+}
+
+.box__description {
+  margin: 65px -60px 29px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.box__description p:last-child {
+  margin-top: 40px;
+}
+
+.section__services {
+  background: url('/img/bg--services.jpg') no-repeat center center / cover;
+  text-align: center;
+  padding-top: 115px;
+  padding-bottom: 109px;
+  font-family: 'Lato', sans-serif;
+}
+
+.box--dark {
+  margin: 0 510px;
+  text-align: center;
+  border: 2px solid #fff;
+  padding: 0 240px;
+}
+
+.box__title--dark {
+  color: #fff;
+}
+
+.box__description--dark {
+  margin: 65px -60px 29px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #fff;
+}
+
+.box__subtitle {
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: #000;
+  font-weight: 700;
+  font-family: "Lato";
+  margin: 37px 0 43px;
+}
+
+.box__description--light {
+  margin: 65px -60px 29px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.box__description--light svg {
+  margin-top: 100px;
+}
+
+.box__description--light svg:first-of-type {
+  margin-top: 35px;
+}
+
+.box--secondary {
+  margin-bottom: 113px;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 134px;
+}
+
+.links__item {
+  position: relative;
+}
+
+.links__item--title {
+  position: absolute;
+  left: 47px;
+  bottom: 42px;
+  color: #fff;
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 5.44px;
+}
+
+.box--contact {
+  margin-bottom: 0;
+}
+
+.btn {
+  width: 395px;
+  height: 58px;
+  background-color: #3c3c3c;
+  border: 2px solid #3c3c3c;
+  margin: 40px 0 20px;
+}
+
+.btn span {
+  font-size: 16px;
+  letter-spacing: 3px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Lato";
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.footer svg {
+  width: 35px;
+  height: 37px;
+  margin-right: 36px;
+}
