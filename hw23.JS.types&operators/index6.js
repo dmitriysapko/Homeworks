@@ -1,4 +1,4 @@
-let amount = prompt('Enter the amount of USD:');
+let amount = +prompt('Enter the amount of USD:');
 let currency = prompt('EUR = 1, UAH = 2, AZN = 3');
   switch(currency) {
     case '1':
