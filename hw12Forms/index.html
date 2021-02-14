@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <main class="main">
+        <div class="card">
+            <div class="content">
+                <div class="content__header">
+                    <input type="radio" id="sign-in" name="gender" value="sign-in" class="header__input" checked>
+                    <label for="sign-in" class="header__label">Sign in</label>
+                    <input type="radio" id="join-us" name="gender" value="join-us" class="header__input">
+                    <label for="join-us" class="header__label">Join us</label>
+                </div>
+                <div class="content-form">
+                    <form action="">
+                        <div class="content-form__field">
+                            <label class="content-form__text" for="name"><b>Username</b></label>
+                            <input class="content-form__input" type="text" name="name" id="name" required>
+                        </div>
+                        <div class="content-form__field">
+                            <label class="content-form__text" for="psw"><b>Password</b></label>
+                            <input class="content-form__input" type="password" name="psw" id="psw" required>
+                        </div>
+                        <div class="content-form__field">
+                            <label for="keep" class="content-form__checkbox">
+                          <input class="content-form__input content-form__input--checkbox" type="checkbox" name="keep" id="keep" checked>
+                          <span class="content-form__text--checkbox">Keep me signed in</span>
+                        </label>
+                        </div>
+                        <button class="content-form__btn" type="submit">Sign in</button>
+                        <div class="content-form__links">
+                            <a href="#">Forgot password</a>
+                            <a href="#">Create an account</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
